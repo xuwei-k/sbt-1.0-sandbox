@@ -1,0 +1,12 @@
+language: scala
+sudo: false
+cache:
+  directories:
+  - "$HOME/.sbt/launchers"
+jdk: oraclejdk8
+addons:
+  apt:
+    packages:
+    - oracle-java8-installer
+script:
+- sbt test
