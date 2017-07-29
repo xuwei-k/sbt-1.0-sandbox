@@ -7,5 +7,7 @@ addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.2.27")
 addSbtPlugin("com.github.scalaprops" % "sbt-scalaprops" % "0.2.3")
 addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
 addSbtPlugin("com.github.xuwei-k" % "sbt-class-diagram" % "0.2.1")
-addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc4")
+
+// https://github.com/thesamet/sbt-protoc/issues/32
+// addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.1"
