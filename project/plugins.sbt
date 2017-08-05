@@ -8,6 +8,7 @@ addSbtPlugin("com.github.scalaprops" % "sbt-scalaprops" % "0.2.3")
 addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
 addSbtPlugin("com.github.xuwei-k" % "sbt-class-diagram" % "0.2.1")
 addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.6")
+addSbtPlugin("org.tpolecat" % "tut-plugin" % "0.6.0")
 
 // https://github.com/thesamet/sbt-protoc/issues/32
 // addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
