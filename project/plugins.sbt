@@ -9,6 +9,11 @@ addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
 addSbtPlugin("com.github.xuwei-k" % "sbt-class-diagram" % "0.2.1")
 addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.6")
 addSbtPlugin("org.tpolecat" % "tut-plugin" % "0.6.0")
+addSbtPlugin("se.marcuslonnberg" % "sbt-docker" % "1.4.1")
+addSbtPlugin("com.typesafe" % "sbt-mima-plugin" % "0.1.17")
+addSbtPlugin("net.vonbuchholtz" % "sbt-dependency-check" % "0.1.10")
+addSbtPlugin("org.scala-sbt" % "sbt-contraband" % "0.3.0")
+addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.1")
 
 // https://github.com/thesamet/sbt-protoc/issues/32
 // addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
