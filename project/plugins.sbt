@@ -14,6 +14,7 @@ addSbtPlugin("com.typesafe" % "sbt-mima-plugin" % "0.1.17")
 addSbtPlugin("net.vonbuchholtz" % "sbt-dependency-check" % "0.1.10")
 addSbtPlugin("org.scala-sbt" % "sbt-contraband" % "0.3.0")
 addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.1")
+addSbtPlugin("com.lucidchart" % "sbt-scalafmt" % "1.10")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.1"
