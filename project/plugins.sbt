@@ -15,6 +15,5 @@ addSbtPlugin("net.vonbuchholtz" % "sbt-dependency-check" % "0.1.10")
 addSbtPlugin("org.scala-sbt" % "sbt-contraband" % "0.3.0")
 addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.1")
 
-// https://github.com/thesamet/sbt-protoc/issues/32
-// addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
+addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.1"
