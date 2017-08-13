@@ -16,6 +16,9 @@ addSbtPlugin("org.scala-sbt" % "sbt-contraband" % "0.3.0")
 addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.1")
 addSbtPlugin("com.lucidchart" % "sbt-scalafmt" % "1.10")
 addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.0")
+addSbtPlugin("com.github.cuzfrog" % "sbt-tmpfs" % "0.3.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.2")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.1"
