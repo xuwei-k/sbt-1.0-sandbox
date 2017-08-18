@@ -19,6 +19,7 @@ addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.0")
 addSbtPlugin("com.github.cuzfrog" % "sbt-tmpfs" % "0.3.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.2")
+addSbtPlugin("io.spray" % "sbt-revolver" % "0.9.0")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.1"
