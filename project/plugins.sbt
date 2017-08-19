@@ -39,7 +39,6 @@ addSbtPlugin("com.thoughtworks.sbt-api-mappings" % "sbt-api-mappings" % "2.0.0")
 addSbtPlugin("com.dwijnand" % "sbt-travisci" % "1.1.0")
 addSbtPlugin("org.xerial.sbt" % "sbt-sql" % "0.7")
 addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.0")
-addSbtPlugin("com.github.alonsodomin" % "sbt-spark" % "0.1.0")
 addSbtPlugin("org.xerial.sbt" % "sbt-jcheckstyle" % "0.2.0")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc5")
