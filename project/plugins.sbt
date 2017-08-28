@@ -41,6 +41,7 @@ addSbtPlugin("org.xerial.sbt" % "sbt-sql" % "0.7")
 addSbtPlugin("org.lyranthe.sbt" % "partial-unification" % "1.1.0")
 addSbtPlugin("org.xerial.sbt" % "sbt-jcheckstyle" % "0.2.0")
 addSbtPlugin("com.markatta" % "sbt-taglist" % "1.4.0")
+addSbtPlugin("io.gatling" % "gatling-sbt" % "2.2.2")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.12-rc6")
 libraryDependencies += "com.trueaccord.scalapb" %% "compilerplugin" % "0.6.2"
